@@ -1,0 +1,41 @@
+/* Index */
+
+/* Showcase */
+.jumbotron {
+    max-width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/threesisters2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Capturing air */
+#captureair {
+    background-color: rgba(100, 148, 93, 0.3);
+    border-radius: 10px;
+}
+
+/* PRODUCTS */
+
+#maskcard {
+    width: 100%;
+    margin: auto;
+}
+
+/* CONTACT US */
+#locations {
+    width: 100%;
+    height: 100%
+}
+
+@media(max-width: 768px) {
+    #productinfoimg {
+        width: 75%;
+        height: auto;
+    }
+
+    #locations {
+        display: inline-block;
+    }
+}
